@@ -11,7 +11,7 @@ def agejudge(x):
         else:
             print('Hello, Kid!')
     else:
-        age = int(input('Please Enter Your Correct Age: '))
+        age = int(input('Please Enter The Correct Age: '))
         agejudge(age)
 
 agejudge(age)

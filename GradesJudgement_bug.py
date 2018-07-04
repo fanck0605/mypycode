@@ -5,8 +5,8 @@ def errjg(x):
     if x>0:
         return x
     else:
-        x = int(input('请您输入正确的成绩: '))
-        errjg(x)
+        s = int(input('请您输入正确的成绩: '))
+        errjg(s)
 
 s1 = errjg(int(input('请您输入上次的成绩: ')))
 s2 = errjg(int(input('请您输入本次的成绩: ')))

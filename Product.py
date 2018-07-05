@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 def product(*nums):
     if nums==():
         raise TypeError('Empty Input')

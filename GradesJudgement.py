@@ -1,8 +1,15 @@
 ﻿# -*- coding: utf-8 -*-
 #Copyright © 2018 Chuck
 
-s1 = int(input('请输入您上次的成绩: '))
-s2 = int(input('请输入您本次的成绩: '))
+def errjg(x):
+    if x>0:
+        return x
+    else:
+        s = int(input('请您输入正确的成绩: '))
+        return errjg(s)
+
+s1 = errjg(int(input('请您输入上次的成绩: ')))
+s2 = errjg(int(input('请您输入本次的成绩: ')))
 
 up = (s2-s1)*100/s1
 if up > 0:
